@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+    header ul{
+        display: inline;
+        list-style: none;
+        
+    }
+    header ul li{
+        padding-right: 5px;
+        margin: 0px;
+        font-size: 2px;
+    }
+    header ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        
+
+    }
+
+header ul li {
+    
+    float: left;
+}
+.hero {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero .hero-inner {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+
+}
+.hero .hero-inner h1 {
+    font-size: 15px;
+}
+.hero .hero-inner p {
+    font-family: "seereka";
+    font-size: 30px;
+}
+
+.services .Serv-Items {
+    padding: 50px 25px;
+    text-align: center;
+    font-family: serif;
+}
+
+.services .Serv-Items h3{
+    font-size: 15px;
+}
+
+.services .Serv-Items p {
+    padding: 15px 0;
+}
+
+.Sign-Up{
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+}
+
+.Sign-Up h2 {
+    font-size: 50px;
+}
+.Sign-Up p{
+    margin-bottom: 20px;
+}
+
+.Sign-Up img {
+width: 100%;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+.Sign-Up h2 {
+    padding: 30px 0;
+    font-size: 15px;
+}
+
+.Sign-Up p {
+    font-family: serif;
+    padding-bottom: 30px;
+
+}
+
+.Sign-Up button{
+    width: 140px;
+    height: 30px;
+    background-color: orange;
+    margin-top: -9px;    
+    margin-bottom: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Comments {
+    margin: 30px 0 0 0;
+    padding: 30px 0 0 0;
+}
+
+.Comments p {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.Comments h4 {
+    padding: 20px;
+}
+
+.Comments h2 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -36px;
+}
+
+.Comments .Comm-Inner{
+    background-color:rgb(245, 241, 241);
+}
+
+.Comments .Comm-Inner .Comm-Items h2{
+    text-align: center;
+    background-color:rgb(245, 241, 241);
+}
+
+.Subscribe{
+    background-color: orange;
+    text-align: center;
+    /* margin: 50px 0; */
+    padding: 50px 0;
+}
+.Subscribe h2 {
+    padding-bottom: 50px;
+}
+
+.Subscribe .newsletter #name{
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 20px 0 0 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align:left;
+    
+}
+
+.Subscribe #email{
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align:left;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(48, 42, 42);
+    padding: 40px;
+}
+
+.footer img{
+    margin-bottom: 50px;
+}
+.footer ul li{
+    display: inline;
+    align-items: flex-end;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Subscribe .aa{
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer ul li a
+{
+    color: white; 
+     text-decoration: none;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 10px;
+}
+
+
+.footer hr{
+    height: 2px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(53, 52, 52);
+    border: none;
+}
+
+.footer p{
+    color: white;
+    margin-top: 50px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+@media (min-width: 568px) {
+    header ul{
+        display: flex;
+        justify-items: space-between;
+        float: right;}
+
+header ul li {
+display: inline;
+
+}
+header ul li a{font-size: 18px;
+font-family: sans-serif;
+margin: 0 10px;
+text-decoration: none;
+color:white;
+}
+.services .Serv-Items {
+    padding: 0 30px;
+}
+
+.Sign-Up img {
+    width: 100%;
+}
+
+.Sign-Up p {
+    padding: 0 30px 30px 30px;
+}
+
+.Sign-Up a {
+    margin: 40px 0 0 0;
+}
+.Comments {
+    margin:  10px;
+}
+
+.footer ul li a {
+    font-size: 15px;
+    margin: 10px;
+
+}
+}
+
+@media (min-width: 768px) {
+
+    header ul {
+        display: flex;
+    }
+
+    header ul li {
+        display: inline;
+    }
+
+    header ul li a{
+        font-size: 20px;
+        font-family: sans-serif;
+        
+    }
+
+
+
+    .hero {
+    
+    background-position: center center;
+    height: 660px;
+    width: 100%;
+    overflow: hidden;
+    }
+
+    .services{
+        display: flex;
+    }
+
+    .services .Serv-Items h3{
+        margin-top: 30px;
+        font-size: 24px; 
+    }
+    
+    .services .Serv-Items p {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .Sign-Up img{
+        width: 50%;
+    }
+
+    .Sign-Up h2{
+        font-size: 20px;
+    }
+    .Comments{
+        text-align: center;
+    }
+
+    .Comments .Comm-Inner{
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .Comments .Comm-Inner p{
+        margin-left: 5px;
+        padding: 15px;
+    }
+
+   
+}
+
+@media (min-width: 992px) {
+    header img {
+        width: 65px;
+    }
+    header ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+    .Subscribe .newsletter #name{
+        background-color: white;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        border-radius: 20px 0 0 20px;
+        width: 150px;
+        height: 40px;
+        border: none;
+        text-align:left;
+        
+    }
+    
+    .Subscribe #email{
+        background-color: white;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        border-radius: 0 20px 20px 0;
+        width: 150px;
+        height: 40px;
+        border: none;
+        text-align:left;
+        
+    }
+    .footer img{
+        width: 60px;
+    }
+
+    .footer ul li a {
+        color: white; 
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 25px;
+}
+
+.footer p {
+    color: white; 
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 15px;
+}
+    
+}
+
+@media (min-width: 1200px) {
+    header {
+        padding: 30px;
+    }
+
+    .hero .hero-inner h1 {
+        font-size: 50px;
+        font-family: cursive;
+    }
+
+    .hero .hero-inner p{
+        font-size: 30px;
+        font-family: cursive;
+    }
+
+    .services {
+        margin: 50px 0;
+    }
+    .Sign-Up p{
+        padding: 0 200px;
+        margin-bottom: 50px;
+    }
+
+    .Sign-Up a {
+        margin: 100px 0 0 0;
+    }
+    .Comments .Comm-Inner .Comm-Items h2{
+        margin-top: 30px;
+        padding: 50px;
+    }
+
+    .Subscribe .newsletter #name{
+        background-color: white;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        border-radius: 20px 0 0 20px;
+        width: 200px;
+        height: 50px;
+        border: none;
+        text-align:left;
+        
+    }
+    
+    .Subscribe #email{
+        background-color: white;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        border-radius: 0 20px 20px 0;
+        width: 200px;
+        height: 50px;
+        border: none;
+        text-align:left;
+        
+    }
+}
