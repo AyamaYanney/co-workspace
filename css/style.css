@@ -9,6 +9,7 @@ header{
     align-items: center;
     display: flex;
     width: 100%;
+    margin: 0 10px;
 }
 
     header ul{
@@ -52,14 +53,15 @@ header ul li {
     font-size: 15px;
 }
 .hero .hero-inner p {
-    font-family: "seereka";
-    font-size: 30px;
+    font-family: arial;
+    font-size: 15px;
 }
 
 .services .Serv-Items {
-    padding: 50px 25px;
+    padding: 10px 25px;
     text-align: center;
-    font-family: serif;
+    font-family: arial;
+    color: #A0A5AB;
 }
 
 .services .Serv-Items h3{
@@ -67,20 +69,27 @@ header ul li {
 }
 
 .services .Serv-Items p {
-    padding: 15px 0;
+    padding: 24px;
+}
+.services{
+    padding-top: 24px;
+    font-family: arial;
 }
 
 .Sign-Up{
     padding: 0px;
     text-align: center;
-    background-color: rgb(247, 243, 243);
+    background-color: #F8F8F8
 }
 
 .Sign-Up h2 {
     font-size: 50px;
+    color: #A0A5AB;
 }
 .Sign-Up p{
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
+    font-size: 20x;
+    color: #A0A5AB;
 }
 
 .Sign-Up img {
@@ -88,69 +97,79 @@ width: 100%;
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
+margin-top: 15px;
 }
 
 .Sign-Up h2 {
     padding: 30px 0;
     font-size: 15px;
+    color: #393939;
 }
 
 .Sign-Up p {
     font-family: serif;
     padding-bottom: 30px;
+    color: #393939;
 
 }
 
 .Sign-Up button{
-    width: 140px;
-    height: 30px;
-    background-color: orange;
+    width: 220px;
+    padding: 5px 20px;
+    background-color: #ECA052;
     margin-top: -9px;    
     margin-bottom: 20px;
+    height: 60px;
     color: white;
     font-family: monospace;
     font-size: 20px;
+    font-weight: bold;
+    border: #ECA052;
     text-decoration: none;
 }
 
 .Comments {
     margin: 30px 0 0 0;
-    padding: 30px 0 0 0;
+    padding: 30px 0;
 }
 
 .Comments p {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin: 20px 0;
+    color: #A0A5AB;
 }
 
 .Comments h4 {
-    padding: 20px;
+    padding: 5px 20px;
+    color: #A0A5AB ;
 }
 
 .Comments h2 {
-    padding: 10px 0;
+    padding: 30px 0;
     text-align: center;
     font-size: 20px;
     margin-top: -36px;
+    color: #A0A5AB;
 }
 
 .Comments .Comm-Inner{
-    background-color:rgb(245, 241, 241);
+    background-color:#F8F8F8;
 }
 
 .Comments .Comm-Inner .Comm-Items h2{
     text-align: center;
-    background-color:rgb(245, 241, 241);
+    background-color:#F8F8F8;
+    padding: 20px;
 }
 
 .Subscribe{
-    background-color: orange;
+    background-color: #ECA052;
     text-align: center;
-    /* margin: 50px 0; */
-    padding: 50px 0;
+    font-family: arial;
 }
 .Subscribe h2 {
-    padding-bottom: 50px;
+    padding: 40px 0 20px 0;
+    color: white;
 }
 
 .Subscribe .newsletter #name{
@@ -179,33 +198,35 @@ background-repeat: no-repeat;
 
 .footer{
     text-align: center;
-    background-color: rgb(48, 42, 42);
-    padding: 40px;
+    background-color: #393939;
+    padding: 15px;
+    color:  #A0A5AB;
 }
 
 .footer img{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .footer ul li{
     display: inline;
     align-items: flex-end;
-    color: white;
+    color: #A0A5AB;
     font-family: sans-serif;
     text-decoration: none;
 }
 
 .Subscribe .aa{
-    background-color: black;
+    background-color: #393939;
     padding: 10px 20px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: center;
     color: white;
+    border: none;
 }
 
 .footer ul li a
 {
-    color: white; 
+     color: #A0A5AB; 
      text-decoration: none;
      font-family: 'Times New Roman', Times, serif; 
      font-size: 10px;
@@ -214,15 +235,17 @@ background-repeat: no-repeat;
 
 .footer hr{
     height: 2px;
-    margin: auto;
-    margin-top: 40px;
+    width: 200px;
+    margin:0 auto;
+    margin-top: 10px;
     background-color: rgb(53, 52, 52);
     border: none;
 }
 
 .footer p{
-    color: white;
-    margin-top: 50px;
+    padding: 30px 0 50px 0;
+    color: #A0A5AB;
+    margin-top: 10px;
     font-size: 12px;
     font-family: sans-serif; 
 }
@@ -284,14 +307,19 @@ color:white;
         
     }
 
-
-
-    .hero {
-    
+    .hero {    
     background-position: center center;
     height: 660px;
     width: 100%;
     overflow: hidden;
+    }
+
+    .hero .hero-inner h1{
+        font-size: 35px;
+    }
+
+    .hero .hero-inner p {
+        font-size: 25px;
     }
 
     .services{
@@ -301,6 +329,7 @@ color:white;
     .services .Serv-Items h3{
         margin-top: 30px;
         font-size: 24px; 
+        color: #A0A5AB;
     }
     
     .services .Serv-Items p {
@@ -310,6 +339,10 @@ color:white;
 
     .Sign-Up img{
         width: 50%;
+    }
+    .Sign-Up p{
+        font-size: 20px;
+        padding: 0 60px 15px 60px ;
     }
 
     .Sign-Up h2{
@@ -334,6 +367,15 @@ color:white;
 }
 
 @media (min-width: 992px) {
+
+    .hero .hero-inner h1 {
+        font-size: 45px;
+    }
+    .hero .hero-inner p {
+        font-size: 35px;
+    }
+
+
     header img {
         width: 65px;
     }
@@ -342,6 +384,16 @@ color:white;
         text-decoration: none;
         font-size: 20px;
 
+    }
+    .Sign-Up p{
+        font-family: arial;
+        padding-right: 75px;
+        padding-left: 75px;
+        color: #A0A5AB;
+    }
+
+    .Comments .Comm-Inner .Comm-Items p{
+        padding: 22px;
     }
     .Subscribe .newsletter #name{
         background-color: white;
@@ -371,16 +423,14 @@ color:white;
     }
 
     .footer ul li a {
-        color: white; 
         text-decoration: none;
-        font-family: 'Times New Roman', Times, serif; 
+        font-family: arial; 
         font-size: 25px;
 }
 
 .footer p {
-    color: white; 
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: arial; 
     font-size: 15px;
 }
     
@@ -407,6 +457,17 @@ color:white;
     .Sign-Up p{
         padding: 0 200px;
         margin-bottom: 50px;
+        font-family: arial;
+    }
+
+    .Sign-Up img {
+        padding-top: 5px;
+        width: 45%;
+    }
+
+    .Sign-Up h2{
+        font-size: 30px;
+        font-family: arial;
     }
 
     .Sign-Up a {
@@ -414,7 +475,17 @@ color:white;
     }
     .Comments .Comm-Inner .Comm-Items h2{
         margin-top: 30px;
-        padding: 50px;
+        padding: 50px 50px 80px 50px;
+        
+    }
+
+    .Comments h2{
+        font-size: 30px;
+    }
+
+    .Comments .Comm-Inner {
+        margin: 0 35px 25px 35px;
+        font-family: arial;
     }
 
     .Subscribe .newsletter #name{
@@ -440,4 +511,26 @@ color:white;
         text-align:left;
         
     }
+
+    .Subscribe h2{
+        font-size: 40px;
+    }
+
+    .Sign-Up p{
+        font-size: 20px;
+    }
+
+    .Subscribe .aa{
+        height: 50px;
+    }
+
+    .footer hr{
+        width: 500px;
+    }
+
+    .Comments .Comm-Inner .Comm-Items h4 {
+        padding-bottom: 50px;
+    }
+
+    
 }
